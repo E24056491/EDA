@@ -1,0 +1,7 @@
+NOT A a a1
+NOT B b b1
+NOT C c a
+NAND D d d1 d2
+NAND E e b c
+NAND F f d e
+NOT G OUT f

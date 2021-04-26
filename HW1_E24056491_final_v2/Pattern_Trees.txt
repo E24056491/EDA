@@ -1,0 +1,45 @@
+pattern_tree1
+NOT A OUT IN
+cost 1
+
+
+pattern_tree2
+NOT A a IN
+NOT B OUT a
+cost 0
+
+
+pattern_tree3
+NAND A OUT a1 a2
+cost 2
+
+
+pattern_tree4
+NAND A a a1 a2
+NOT B b a
+NAND C OUT b c1
+cost 3
+
+
+pattern_tree5
+NAND A a a1 a2
+NOT B b b1
+NAND C c a b
+NOT B OUT c
+cost 3
+
+
+pattern_tree6
+NOT A a a1
+NOT B b b1
+NAND C c a b
+NAND D OUT c d1
+cost 3
+
+
+pattern_tree7
+NAND A a a1 a2
+NAND B b b1 b2
+NAND C c a b
+NOT D OUT c
+cost 4
